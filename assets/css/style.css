@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+
+
+html,
+body {
+  height: 100%;
+}
+body {
+  text-align: center;
+  background-image: url("../images/shrek.jpg");
+}
+#wrapper {
+      width: 960px;
+      min-height: 80%;
+  box-sizing: border-box;
+   padding: 5% 0;
+  margin: 5% auto;
+  background-color: #ffffffb5;
+}
+
+
+h1 {
+  margin-bottom: 50px;
+   font-family: 'Monoton', cursive;
+   font-size: 4em;
+color: #885212;
+}
+
+
+
+button {
+   display: block;
+  width: 400px;
+  height: 100px;
+  margin: 10px auto 0;
+  font-size: 42px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+}
+
+
+#start {
+  margin-top: 15%;
+  background: #885212;
+  border: 1px solid #885212;
+}
+#quiz-area h2 {
+  margin-top: 50px;
+}
